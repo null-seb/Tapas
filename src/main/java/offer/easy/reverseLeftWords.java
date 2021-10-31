@@ -23,7 +23,7 @@ class Solution2{
 }
 public class reverseLeftWords {
     public static void main(String[] args) {
-        String ss="abcde";
+        String ss="abcdefg";
         Solution2 s=new Solution2();
         ss=s.reverseLeftWords(ss,2);
         System.out.println(ss);
